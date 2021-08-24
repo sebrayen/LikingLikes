@@ -1,0 +1,67 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0px;
+    margin: 0px; 
+    color: black; 
+}
+
+h2 {
+    font-size: 14pt;
+}
+
+#container {
+    border: 2px solid black;
+    width: 330px;
+    margin: 5px auto; 
+    padding: 10px;
+}
+
+#top {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5px; 
+}
+
+#top-left {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+
+}
+
+#top-right {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+}
+
+#likes {
+    flex: 1;
+    justify-content: center;
+    padding: 5px;
+}
+
+#like-button {
+    flex: 1;
+    justify-content: center;
+    padding: 5px;
+}
+
+button {
+    background-color: rgb(238, 206, 66);
+    border: 2px solid black;
+    box-shadow: 2px 2px black; 
+    padding: 5px 8px;
+    display: block;
+    margin: -5px 15px 0px 15px;
+}
+
+#bottom {
+    margin: 5px;
+    padding: 5px 0px 0px 0px;
+}
+
+#count {
+
+}

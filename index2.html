@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style2.css">
+    <title>Likes</title>
+</head>
+<body>
+
+    <div id="header">
+        <h1>Network</h1>
+    </div>
+
+    <div id="feed">
+        <h1>Your Feed</h1>
+    </div>
+
+    <div id="container">
+
+        <div id="sidebar">
+            <img class="avatar" src="images/user-circle.png" alt="">
+            <br/>
+            <a href="#">Add an avatar</a>
+            <br />
+            <br />
+            <h2>James Doe</h2>
+            <br />
+        </div>
+
+        <div id="main-content">
+            <div id="post">
+                <div id="top">
+                    <div id="top-left"> <h2>Neil M</h2></div>
+                    <div id="top-right">
+                        <div id="likes"> <p id="count">9 like(s)</p></div>
+                        <div id="like-button"><button onclick="add1()">Like</button></div>
+        
+                        <!-- user clicks on button first  -->
+                        <!-- after user clicks, likes increases by 1 -->
+        
+                    </div>
+                </div>
+                <div id="bottom">
+                    <p>I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+                </div>
+
+            </div>
+            <div id="post">
+                <div id="top">
+                    <div id="top-left"> <h2>Nichole K</h2></div>
+                    <div id="top-right">
+                        <div id="likes"> <p id="count2">12 like(s)</p></div>
+                        <div id="like-button"><button onclick="add2()">Like</button></div>
+        
+                        <!-- user clicks on button first  -->
+                        <!-- after user clicks, likes increases by 1 -->
+        
+                    </div>
+                </div>
+                <div id="bottom">
+                    <p>Just finished my <a href="#">next comic,</a> check it out</p>
+                </div>
+
+
+            </div>
+            <div id="post">
+
+                <div id="top">
+                    <div id="top-left"> <h2>Jim R</h2></div>
+                    <div id="top-right">
+                        <div id="likes"> <p id="count3">9 like(s)</p></div>
+                        <div id="like-button"><button onclick="add3()">Like</button></div>
+        
+                        <!-- user clicks on button first  -->
+                        <!-- after user clicks, likes increases by 1 -->
+        
+                    </div>
+                </div>
+                <div id="bottom">
+                    <p>I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    <script src="script2.js"></script>
+</body>
+</html>
